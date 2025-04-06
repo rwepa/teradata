@@ -1,0 +1,2 @@
+# teradata
+teradata database tutorial
