@@ -1,0 +1,7 @@
+-- modify to match target system
+.LOGON 192.168.130.131/dbc,dbc;
+
+-- 500 MB, final size should be < 300 MB
+CREATE DATABASE AdventureWorksDW AS PERM = 500e+06;
+
+DATABASE AdventureWorksDW;
